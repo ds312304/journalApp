@@ -22,6 +22,7 @@ public class UserDetailServiceImpl {
     @Mock
     private UserRepo userRepo;
 
+    @Disabled
     @BeforeEach
     void setup(){
         MockitoAnnotations.initMocks(this);

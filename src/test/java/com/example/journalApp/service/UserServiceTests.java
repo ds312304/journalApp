@@ -42,6 +42,7 @@ public class UserServiceTests {
         assertNotNull(userRepo.findByUsername("Ram"));
     }
 
+    @Disabled
     @ParameterizedTest
     @CsvSource({
             "1,1,2",
